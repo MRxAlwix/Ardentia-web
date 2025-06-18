@@ -28,7 +28,7 @@ const Home = () => {
   };
 
   const copyServerIP = () => {
-    navigator.clipboard.writeText('play.ardentia.net');
+    navigator.clipboard.writeText('mc.ardentia.my.id');
     // You could add a toast notification here
   };
 
@@ -114,7 +114,7 @@ const Home = () => {
             >
               <span className="text-gray-300 text-sm">Server IP:</span>
               <div className="flex items-center space-x-2">
-                <code className="text-orange-400 font-mono text-lg">play.ardentia.net</code>
+                <code className="text-orange-400 font-mono text-lg">mc.ardentia.my.id</code>
                 <motion.button
                   onClick={copyServerIP}
                   className="p-1 text-gray-400 hover:text-white transition-colors"
